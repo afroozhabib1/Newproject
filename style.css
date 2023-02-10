@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* h1{
+    border: 3px solid red;
+    padding-top: 30px;
+    margin-top: 30px;
+} */
+.box{
+    margin-top: 100px;
+    width: 100%;
+    height: 420px;
+border: 5px solid green;
+padding: 10px;
+}
+.box1{
+    border: 5px solid red;
+    float: left;
+    width: 20%;
+    height: 390px;
+}
+h1{
+    text-align: center;
+    color: green;
+    margin-top: 158px;
+    font-size: 60px;
+    font-style: initial;
+    font-weight: 100;
+}
+.box2{
+    border: 5px solid pink;
+    float: left;
+    width: 20%;
+    height: 390px;
+}
+.box3{
+    border: 5px solid yellow;
+    float: left;
+    width: 20%;
+    height: 390px;
+}
+.box4{
+    border: 5px solid blue;
+    float: left;
+    width: 20%;
+    height: 390px;
+}
+.box5{
+    border: 5px solid rgb(255, 0, 212);
+    float: left;
+    width: 20%;
+    height: 390px;
+}
