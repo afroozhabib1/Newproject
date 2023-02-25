@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body style="background-color: burlywood;">
+ 
+    <h1 style="color: darkolivegreen;">Table Calculator</h1>
+
+    <form onsubmit="printTable(); return false">
+        <label for="numberInput">Enter a number to print table:</label>
+        <br>
+        <input id="numberInput" type="number" name="input" placeholder="Enter a number">
+        <br>
+        <button type="submit">calculate</button>
+    </form>
+
+
+    <div id="result"></div>
+
+    <script>
+
+        function printTable() {
+            let input = +document.getElementById('numberInput').value;
+            
+            document.querySelector("#result").innerHTML = ""
+
+            for (let i = 0; i < 10; i++) {
+
+                document.querySelector("#result")
+                    .innerHTML += `<h4> ${input} x ${i+1} = ${ input * (i+1)} </h4>`;
+            }
+        }
+
+        // let a = 5;
+
+        // a = a + 5;
+        // a += 5;
+
+
+    </script>
+</body>
+</html>
